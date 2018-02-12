@@ -62,12 +62,12 @@ Install-Package Fody
 ...
 ```
 ## Project 속성 설정
-**권장**
-```
-  [속성] - [일반] - [출력 디렉터리] = **$(ProjectDir)bin\$(Configuration)\**  
-  [속성] - [일반] - [중간 디렉터리] = **$(ProjectDir)$(BaseIntermediateOutputPath)$(Configuration)\**
-```
 **필수**
 ```
 출력 디렉터리와 중간 디렉터리의 경로가 같으면 안됩니다.
+```
+**권장**
+```
+  [속성] - [일반] - [출력 디렉터리] = $(ProjectDir)bin\$(Configuration)\
+  [속성] - [일반] - [중간 디렉터리] = $(ProjectDir)$(BaseIntermediateOutputPath)$(Configuration)\
 ```
