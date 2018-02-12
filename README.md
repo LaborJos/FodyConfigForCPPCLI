@@ -60,7 +60,7 @@ Install-Package Fody
 </Target>
 ...
 ```
-## Project 속성 설정
+## Configuration Project Properties
 **Required**
 ```
 Output directory and the intermediate directory must not have the same path.
