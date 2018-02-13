@@ -1,5 +1,7 @@
 # C++/CLI을 위한 Fody 설정
-**Note: [**PropertyChanged.Fody**](https://github.com/Fody/PropertyChanged), [**PropertyChanging.Fody**](https://github.com/Fody/PropertyChanging) 전용**
+**Note: [PropertyChanged.Fody](https://github.com/Fody/PropertyChanged),
+[PropertyChanging.Fody](https://github.com/Fody/PropertyChanging),
+[Validar.Fody](https://github.com/Fody/Validar) 전용**
 
 ## C++/CLI 프로젝트에서 순수 MSIL Assembly 만들기 [(참고)](https://stackoverflow.com/questions/6695727/creating-a-pure-msil-assembly-from-a-c-cli-project)
 ### 1. Project 속성 설정
@@ -30,8 +32,8 @@
 ```
 Install-Package Fody
 ```
-### 2. PropertyChanged.Fody, PropertyChanging.Fody 설치
-**Note: PropertyChanged.Fody**와 **PropertyChanging.Fody**는 Native용 패키지가 없으므로, 참조 추가와 packages.config에 등록해주는 과정이 필요함.
+### 2. WeaverName.Fody 설치
+**Note: PropertyChanged.Fody, PropertyChanging.Fody, Validar**는 Native용 패키지가 없으므로, 참조 추가와 packages.config에 등록해주는 과정이 필요함.
 
 ## 프로젝트에 FodyWeavers.xml 생성 및 편집
 ```xml
