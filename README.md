@@ -32,8 +32,8 @@ void __clrcall __identifier(".cctor")() { }
 ```
 Install-Package Fody
 ```
-### 2. Install PropertyChanged.Fody, PropertyChanging.Fody
-**Note: PropertyChanged.Fody** and **PropertyChanging.Fody** is no package for Native, you need to manually add references and register them in packages.config.
+### 2. Install Weaver.Fody
+**Note: PropertyChanged.Fody**, **PropertyChanging.Fody**, **Validar** is no package for Native, you need to manually add references and register them in packages.config.
 
 ## Creating and editing FodyWeavers.xml in your project
 ```xml
