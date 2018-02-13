@@ -1,6 +1,9 @@
 
 # Fody Configuration for C++/CLI
-**Note: Only [**PropertyChanged.Fody**](https://github.com/Fody/PropertyChanged), [**PropertyChanging.Fody**](https://github.com/Fody/PropertyChanging)**
+**Note: Only
+[PropertyChanged.Fody](https://github.com/Fody/PropertyChanged),
+[PropertyChanging.Fody](https://github.com/Fody/PropertyChanging),
+[Validar.Fody](https://github.com/Fody/Validar)**
 
 ## Creating a pure MSIL assembly from a C++/CLI project [(Reference)](https://stackoverflow.com/questions/6695727/creating-a-pure-msil-assembly-from-a-c-cli-project)
 ### 1. Configuration Properties
